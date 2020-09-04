@@ -1,0 +1,14 @@
+{
+	"name": "html",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "html",
+	"workspaceFolder": "/workspace",
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"ritwickdey.LiveServer",
+	]
+}
