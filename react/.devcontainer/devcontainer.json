@@ -1,0 +1,14 @@
+{
+	"name": "app1-web",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "web",
+	"workspaceFolder": "/workspace",
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"dbaeumer.vscode-eslint"
+	]
+}

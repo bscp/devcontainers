@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VARIANT: 12
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
